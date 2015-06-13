@@ -12,7 +12,7 @@ public class Counter {
 		return len<this.getMin();
 	}
 	
-	public void setCounter(int i, int count, int len){
+	public void setCounter(int i, int count){
 		this.counts[i]=count;
 		if(counts[i]<counts[min]){
 			min = i;
@@ -29,5 +29,9 @@ public class Counter {
 	
 	public boolean done(){
 		return done;
+	}
+	
+	public void end(){
+		this.done = false;
 	}
 }
