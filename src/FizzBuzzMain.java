@@ -8,7 +8,7 @@ public class FizzBuzzMain {
 		int[] ints = new int[2];
 		ints[0]=3;
 		ints[1]=5;
-		FizzBuzz fizzbuzz = new FizzBuzz(strings, ints, 100);
+		FizzBuzz fizzbuzz = new FizzBuzz(strings, ints, 1000000);
 		fizzbuzz.run();
 	}
 }

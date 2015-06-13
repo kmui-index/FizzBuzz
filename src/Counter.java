@@ -1,4 +1,7 @@
 public class Counter {
+	/*
+	 * Counter keeps track of the completion of each of the tasks in the fizzbuzz program.
+	 */
 	private int[] counts;
 	private int min;
 	private int len;
@@ -32,6 +35,6 @@ public class Counter {
 	}
 	
 	public void end(){
-		this.done = false;
+		this.done = true;
 	}
 }

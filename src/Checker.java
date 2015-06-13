@@ -2,6 +2,12 @@ import java.util.PriorityQueue;
 
 
 public class Checker implements Runnable{
+	/*
+	 * Checker is the class which goes over the length of counting and determines if
+	 * each number on the count is divisible by the step (actually does this by
+	 * counting from zero by the step - so more efficient).  It then pushes the slot of this string 
+	 * into the priority queue.
+	 */
 	private PriorityQueue<Integer>[] checks;
 	private int slot;
 	private int length;
